@@ -1,10 +1,14 @@
 /* Common Styles */
+
 body {
     margin: 0;
+    font-family: 'Roboto',
+        sans-serif;
 }
 
 
 /* Common Nav Styles */
+
 .navigation-wrapper {
     height: 190px;
     background-color: #11122b;
@@ -25,14 +29,33 @@ body {
     margin-right: 15px;
 }
 
-.icon  i {
+.icon i {
     font-size: 2em;
 }
-.contact-hours-wrapper {
-  
+
+.left-column>.contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.contact-hours-wrapper>.hours {
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
+    color: #fff;
 }
 
 .address-wrapper {
-
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
 }
 
+.banner-image img {
+    width: 216px;
+    height: 100%;
+}
